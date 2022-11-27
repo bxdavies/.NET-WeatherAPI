@@ -12,11 +12,9 @@
 </p>
 <p align="center">
   <a href="#about-the-project">About The Project</a> •
-  <a href="#usage">How To Use</a> •
+  <a href="#installation">How To Use</a> •
   <a href="#examples">Examples</a> •
-  <a href="#best-practice">Best Practice</a> •
-  <a href="#credits">Credits</a> •
-  <a href="examples.md">More Examples</a>
+  <a href="#credits">Credits</a>
 </p>  
 
 <p align="center">
@@ -80,7 +78,7 @@ RealtimeRequestEntity request = new RealtimeRequestEntity()
 ```
 
 ## Examples
-Check out the `samples` folder in the repository this repository was forked from, by clicking [here] (https://github.com/lewisbennett/weatherapi-Net-Standard/tree/master/Samples)
+Check out the `samples` folder in the repository this repository was forked from, by clicking [here](https://github.com/lewisbennett/weatherapi-Net-Standard/tree/master/Samples).
 
 ## Credits
 - Credit to [@lewisbennett ](https://github.com/lewisbennett/weatherapi-Net-Standard) for all code. I have made this repository so I can create a NuGet package with correctly working Moon and Sun set and rise times. 
