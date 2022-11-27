@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>NETWeatherAPI</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Title>.Net WeatherAPI</Title>
+    <Version>0.1.0</Version>
+    <Authors>Lewis Bennet, Ben Davies</Authors>
+    <Description>Unofficial .NET API client for the weather API available at weatherapi.com.</Description>
+    <PackageProjectUrl>https://github.com/bxdavies/.NET-WeatherAPI</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/bxdavies/.NET-WeatherAPI</RepositoryUrl>
+    <PackageTags>weather,weatherapi,net</PackageTags>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
